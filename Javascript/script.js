@@ -5,6 +5,7 @@ function changeImage() {
     }
     else {
         image.src = "Images/Mijzelf3.jpg";
+        
     }
 }
 

@@ -160,7 +160,7 @@ img{
 height: 300px;
 width: 300px;
 margin: 5px;
-border:solid 1px gold;
+border:solid 2px gold;
 border-radius: 2px;
 display: flex;
 justify-content: left;
@@ -171,23 +171,25 @@ justify-content: left;
   background-color: darkgray;
   height: 100px;
   width: 300px;
-  opacity: 0.5;
+  opacity: 1;
   padding: 10px;
   justify-content: right;
   border-radius: 5px;
   font-family: "Courier New", Courier, monospace;
+  margin: 10px;;
 }
   .box5 {
     border: 1px solid blue ;
     background-color: darkgray;
     height: 100px;
     width: 300px;
-    opacity: 0.5;
+    opacity: 1;
     padding: 10px;
     display: flex;
     font-family: "Courier New", Courier, monospace;
     border-radius: 5px;
     display: flex;
+    margin: 10px;
     
   }
 
@@ -196,23 +198,92 @@ justify-content: left;
     background-color: darkgray;
     height: 100px;
     width: 300px;
-    opacity: 0.5;
+    opacity: 1;
     padding: 10px;
     display: flex;
     font-family: "Courier New", Courier, monospace;
     border-radius: 5px;
     display: flex;
-    
+    margin: 10px;
     
   }
 
   #links{
 
-height: 100%;
-width: 40%;
+  height: 100%;
+  width: 40%;
 margin: 100
   }
   main{
     margin: 10px;
   }
   
+  .box10 {
+    border: 1px solid blue;
+    background-color: darkgray;
+    height: 100px;
+    width: 300px;
+    opacity: 1;
+    padding: 10px;
+    display: flex;
+    font-family: "Courier New", Courier, monospace;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px;
+  }
+
+  .box11 {
+    border: 1px solid blue;
+    background-color: darkgray;
+    height: 100px;
+    width: 300px;
+    opacity: 1;
+    padding: 10px;
+    display: flex;
+    font-family: "Courier New", Courier, monospace;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px;
+  }
+
+  .box12 {
+    border: 1px solid blue;
+    background-color: darkgray;
+    height: 100px;
+    width: 300px;
+    opacity: 1;
+    padding: 10px;
+    display: flex;
+    font-family: "Courier New", Courier, monospace;
+    border-radius: 5px;
+    display: flex;
+    margin: 10px;
+    
+  }
+
+    #Foto1{
+      height: 100px;
+      width: 150px;
+
+
+
+
+    }
+
+    #Foto2{
+      height: 100px;
+      width: 150px;
+
+
+
+
+    }
+
+    #Foto3{
+      height: 100px;
+      width: 150px;
+
+
+
+
+    }
