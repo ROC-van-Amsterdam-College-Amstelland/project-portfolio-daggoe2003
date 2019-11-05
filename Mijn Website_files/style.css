@@ -1,6 +1,6 @@
   ul{
     list-style-type: none;
-    margin: 10px;
+    margin: 0;
     padding: 0;
     width: 200px;
     background-color:#d3d3d3 ;
@@ -30,7 +30,7 @@
   
   body{
     background-image: url("project2.gif");
-    background-color:black;
+    background-color: darkgray;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -78,7 +78,7 @@
   
   
   .box1 {
-    border: 1px solid gold;
+    border: 1px solid blue;
     background-color: darkgray;
     height: 100px;
     width: 300px;
@@ -133,8 +133,8 @@
     font-style:normal;
     line-height:18px;
     color:black;
-    border: solid 1px violet;
-    border-radius: 5px;
+    border: solid 1px blue;
+    border-radius: 15px;
     
     background-color: lightgrey;
     height: 430px;
@@ -146,8 +146,8 @@
 }
 
 
-input{
-height: 20px;
+button{
+height: 25px;
 width: 325px;
 display: flex;
 float: right;
@@ -160,9 +160,7 @@ img{
 height: 300px;
 width: 300px;
 margin: 5px;
-border:solid 1px gold;
+border:solid 1px yellow;
 border-radius: 2px;
-display: flex;
-justify-content: left;
 }
 
