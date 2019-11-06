@@ -435,13 +435,9 @@ margin: 100
       font-size: 100%;
     }
     
-    body{
-      min-width: 100%;
-      text-align: center;
-    }
     #all{
       width:100%;
-      margin: 0 auto; /*centers the website*/
+      margin: 0 auto; 
     }
     
     #likes{
@@ -461,9 +457,19 @@ margin: 100
       margin:0 auto;
       width:60%;
     }
+    
+    #bar{
+      margin:0 auto;
+      width:60%;
+    }
 
     progress{
       display: flex;
       justify-content: center;
       margin: 10%;
+    }
+
+    #vandaag{
+      color:gold;
+      margin: 10px;
     }
