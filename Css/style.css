@@ -82,7 +82,7 @@
     background-color: darkgray;
     height: 100px;
     width: 300px;
-    opacity: 0.5;
+    opacity: 1;
     padding: 10px;
     justify-content: right;
     border-radius: 5px;
@@ -96,7 +96,7 @@
     background-color: darkgray;
     height: 100px;
     width: 300px;
-    opacity: 0.5;
+    opacity: 1;
     padding: 10px;
     display: flex;
     font-family: "Courier New", Courier, monospace;
@@ -109,7 +109,7 @@
     background-color: darkgray;
     height: 100px;
     width: 300px;
-    opacity: 0.5;
+    opacity: 1;
     padding: 10px;
     display: flex;
     font-family: "Courier New", Courier, monospace;
@@ -286,4 +286,184 @@ margin: 100
 
 
 
+    }
+    .box20 {
+      border: 1px solid blue;
+      background-color: darkgray;
+      height: 200px;
+      width: 300px;
+      opacity: 1;
+      padding: 10px;
+      display: flex;
+      font-family: "Courier New", Courier, monospace;
+      border-radius: 5px;
+      display: flex;
+      margin: 10px;
+      
+    }
+    .box21 {
+      border: 1px solid violet;
+      background-color: darkgray;
+      height: 200px;
+      width: 300px;
+      opacity: 1;
+      padding: 10px;
+      display: flex;
+      font-family: "Courier New", Courier, monospace;
+      border-radius: 5px;
+      display: flex;
+      margin: 10px;
+      
+    }
+    .box22 {
+      border: 1px solid yellow;
+      background-color: darkgray;
+      height: 200px;
+      width: 300px;
+      opacity: 1;
+      padding: 10px;
+      display: flex;
+      font-family: "Courier New", Courier, monospace;
+      border-radius: 5px;
+      display: flex;
+      margin: 10px;
+      
+    }
+    .box30{
+      border: 1px solid yellow;
+      background-color: darkgray;
+      height: 200px;
+      width: 300px;
+      opacity: 1;
+      padding: 10px;
+      display: flex;
+      font-family: "Courier New", Courier, monospace;
+      border-radius: 5px;
+      display: flex;
+      margin: 20px;
+      
+    }
+    .box31 {
+      border: 1px solid violet;
+      background-color: darkgray;
+      height: 200px;
+      width: 300px;
+      opacity: 1;
+      padding: 10px;
+      display: flex;
+      font-family: "Courier New", Courier, monospace;
+      border-radius: 5px;
+      display: flex;
+      margin: 20px;
+      
+    }
+    .box32 {
+      border: 1px solid yellow;
+      background-color: darkgray;
+      height: 200px;
+      width: 300px;
+      opacity: 1;
+      padding: 10px;
+      display: flex;
+      font-family: "Courier New", Courier, monospace;
+      border-radius: 5px;
+      display: flex;
+      margin: 20px;
+      
+    }
+    
+    #fitness{
+      height: 190px;
+      width: 290px;
+      border: solid 2px blue;
+    }
+
+    #gamen{
+      height: 190px;
+      width: 290px;
+      border: solid 2px violet;
+    
+    }
+
+    #reizen{
+      height: 190px;
+      width: 290px;
+      border: solid 2px red;
+    }
+
+    input[type=text], select, textarea {
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid gold; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      margin-top: 6px;
+      margin-bottom: 16px; 
+      resize: vertical 
+    }
+    
+    
+    input[type=submit] {
+      background-color: violet;
+      color: white;
+      padding: 12px 15px;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      height: 50px;
+      width: 80px;
+    }
+    
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    
+    .container {
+      border-radius: 5px;
+      background-color: lightgray ;
+      padding: 20px;
+    }
+
+    #midden2{
+      height: 100%;
+      width: 100%;
+    }
+
+    #vandaag{
+      font-size: 100%;
+    }
+    
+    body{
+      min-width: 100%;
+      text-align: center;
+    }
+    #all{
+      width:100%;
+      margin: 0 auto; /*centers the website*/
+    }
+    
+    #likes{
+      height:5px;
+      width:50%;
+      background:#0000ee;
+      float:left;
+    }
+    #dislikes{
+      height:5px;
+      width:50%;
+      background:#ccc;
+      float:right;
+    }
+    
+    #bar{
+      margin:0 auto;
+      width:60%;
+    }
+
+    progress{
+      display: flex;
+      justify-content: center;
+      margin: 10%;
     }

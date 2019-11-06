@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="Javascript/script.js"></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mijn Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="over-mij.html">Over Mij</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projecten.html">Projecten</a></li>
+                <li><a href="vaardigheden.html">Vaardigheden</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="midden"></div>
+    
+    
+    <main>
+            <div class="container">
+            <form action="action_page.php">
+                                      
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">                      
+            <label for="country">Country</label>
+            <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">Europe</option>
+            </select>
+                                      
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                      
+            <input type="submit" value="Submit">
+                                      
+            </form>
+            </div>
+
+
+
+        </div>
+        
+        <div id="rechts">
+                <div id="all">
+                        <div id="bar">
+                            <div id="likes"></div>
+                            <div id="dislikes"></div>
+                        </div>
+                        <input type="button2" value="Like" id="likeButton" onclick="like();"/>
+                        <input type="button2" value="Dislike" id="dislikeButton" onclick="dislike();"/>
+                    
+                    </div>
+            
+            
+        
+    </main>
+</body>
+<footer>
+        <script src="Javascript/script.js"></script>
+</footer>
+</html>
